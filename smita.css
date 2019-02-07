@@ -1,0 +1,229 @@
+.logo{
+    
+
+    width: 300px;
+    margin-left: 300px;
+    margin-top: -150px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+.logo  h1{
+margin-left: 30px;
+}
+@import url(//fonts.googleapis.com/css?family=Pacifico);
+
+body{
+    
+    padding-top:10rem;
+   background:  center no-repeat;
+    background-image: url(black-background-bulb-close-up-52910.jpg);
+  background-size: cover;
+  margin: 0;
+   overflow:hidden;
+}
+
+.lasvegas {
+  font-family: 'Pacifico', cursive;
+  font-size:100px;
+  border: none;
+  color: rgba(255,255,255,0.6);
+  margin-left: 100px;
+  text-shadow: 
+     1px 5px 4px rgba(0,0,0,.3), 
+    0 0 2px rgba(255,255,255,1), 
+    0 0 10px rgba(255,255,255,1), 
+    0 0 20px rgba(255,255,255,1), 
+    0 0 30px rgba(255,255,255,1), 
+    0 0 40px #FFFF00, 
+    0 0 70px #FFFF00, 
+    0 0 80px #FFFF00,
+    0 0 100px #FFFF00;
+    
+}
+
+
+.lasvegas span{
+  animation: blink .3s infinite alternate;
+}
+
+.lasvegas span.delay{
+ animation: blink .3s infinite alternate;
+  animation-direction: alternate;
+  cubic-bezier(0.5, 0.2, 0.3, 1.0)
+}
+
+
+@keyframes blink {
+  0%   {}
+  50%  {}
+  60%{
+    text-shadow: 
+      0 0 2px rgba(255, 255, 255, .1), 
+      0 0 10px rgba(255, 255, 255, .4);
+    
+    text-stroke: 2px rgba(255,255,255,0.05);
+  }
+  70%{
+    text-shadow: 
+      0 0 2px rgba(255,255,255,1), 
+      0 0 10px rgba(255,255,255,1), 
+      0 0 20px rgba(255,255,255,1), 
+      0 0 30px rgba(255,255,255,1), 
+      0 0 40px #FFFF00, 
+      0 0 70px #FFFF00, 
+      0 0 80px #FFFF00,
+      0 0 100px #FFFF00;
+  }
+  80%{
+    text-shadow: 
+      0 0 2px rgba(255, 255, 255, .1), 
+      0 0 10px rgba(255, 255, 255, .4);
+    
+    text-stroke: 2px rgba(255,255,255,0.05);
+  }
+  100% { 
+    text-shadow: 
+      0 0 2px rgba(255,255,255,1), 
+      0 0 10px rgba(255,255,255,1), 
+      0 0 20px rgba(255,255,255,1), 
+      0 0 30px rgba(255,255,255,1), 
+      0 0 40px #FFFF00, 
+      0 0 70px #FFFF00, 
+      0 0 80px #FFFF00,
+      0 0 100px #FFFF00;
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* BASIC */
+
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+a {
+  color: #92badd;
+  display:inline-block;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display:inline-block;
+  margin: 40px 8px 10px 8px; 
+  color: #cccccc;
+}
+
+
+
+
+p{
+    color: white;
+    margin-left: 130px;
+  font-size: 50px;
+  margin-top: 0px;
+    font-family: monospace;
+}
+
+
+
+
+
+
+h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 50px;
+    font-weight: lighter;
+}
+
+h1 {
+    margin-left: 50px;
+  color: #fff;
+  -webkit-animation: h1 8s infinite; 
+  animation: h1 8s infinite;
+}
+
+
+div {
+   
+    position: relative;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes h1 {
+    0%   {text-shadow: 0 0 3px #FF0000; color: #fff;}
+    25%  {text-shadow: 0 0 12px #FF0000;}
+    50%  {text-shadow: 0 0 20px #FF0000; color: lightyellow;}
+    75%  {text-shadow: 0 0 12px #FF0000;}
+    100% {text-shadow: 0 0 3px #FF0000; color: #fff;}
+}
+
+
+
+/* Internet Explorer */
+
+@keyframes h1 {
+    0%   {text-shadow: 0 0 3px #FF0000; color: #fff;}
+    25%  {text-shadow: 0 0 12px #FF0000;}
+    50%  {text-shadow: 0 0 20px #FF0000; color: lightyellow;}
+    75%  {text-shadow: 0 0 12px #FF0000;}
+    100% {text-shadow: 0 0 3px #FF0000; color: #fff;}
+}
+
+
+
+.button {
+    line-height: 50px;
+    height: 50px;
+    width: 200px;
+    margin-left: 250px;
+  background-color: #004A7F;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: #FEFCD7; -webkit-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FEFCD7; -webkit-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #FEFCD7; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #FEFCD7; -moz-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FEFCD7; -moz-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #FEFCD7; -moz-box-shadow: 0 0 3px #B20000; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #FEFCD7; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FEFCD7; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #FEFCD7; box-shadow: 0 0 3px #B20000; }
+}
+
+@keyframes glowing {
+  0% { background-color: #FEFCD7; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FEFCD7; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #FEFCD7; box-shadow: 0 0 3px #B20000; }
+}
